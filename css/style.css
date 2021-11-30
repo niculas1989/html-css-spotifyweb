@@ -194,6 +194,18 @@ footer a {
 
 .central-menu {
     width: 40%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.upper-menu {
+    font-size: 1.2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#bigger {
+    font-size: 2rem;
 }
 
 /* MENU' DESTRA */
