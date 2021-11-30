@@ -33,9 +33,9 @@ body {
     flex-direction: column;
 }
 
-/* .hidden {
+.hidden {
     display: none;
-} */
+}
 
 /* Sidebar */
 
@@ -75,12 +75,12 @@ body {
 }
 
 .buttons-bottom img {
-    padding: 5px 0;
+    padding: 10px 0;
     color: darkgray
 }
 
 #smaller {
-    height: 20px;
+    height: 40px;
 }
 
 #background-circle {
@@ -156,6 +156,10 @@ footer {
 /* Breackpoont per 767px */
 
 @media screen and (min-width: 767px) {
+    .hidden {
+        display: block;
+    }
+
     .sidebar {
         width: 250px;
         display: flex;
