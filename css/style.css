@@ -27,3 +27,8 @@ header {
     height: 100px;
     background-color: #080B11;
 }
+
+header a {
+    text-align: right;
+    text-decoration: none;
+}
