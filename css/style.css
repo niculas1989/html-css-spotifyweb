@@ -16,6 +16,7 @@
 }
 
 body {
+    font-family: 'Montserrat', sans-serif;
     color: white;
 }
 
@@ -85,8 +86,8 @@ body {
 
 #background-circle {
     background-color: darkgray;
-    height: 27px;
-    width: 30px;
+    height: 40px;
+    width: 40px;
     border: 1px solid currentColor;
     border-radius: 50%;
 }
@@ -160,6 +161,15 @@ footer {
         display: block;
     }
 
+    #logo-small {
+        display: none;
+    }
+
+    #logo-big {
+        height: 45px;
+        margin-bottom: 30px;
+    }
+
     .sidebar {
         width: 250px;
         display: flex;
@@ -177,12 +187,17 @@ footer {
 
     .sidebar h3 {
         font-size: 1rem; 
+        font-weight: bolder;
    }
     .sidebar ul {
         padding-top: 20px;
         list-style-type: none;
     }
-    
+
+
+
+
+    /* FINE QUERY */
 }
 
 /* Breackpoont per 991px */
