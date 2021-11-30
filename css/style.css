@@ -30,11 +30,18 @@
 header {
     height: 100px;
     background-color: #080B11;
+
+    justify-content: flex-end;
+    align-items: center;
 }
 
 header a {
+    height: 45px;
     text-decoration: none;
     color: #58595E;
+    padding: 15px 20px;
+    border: 1px solid currentColor;
+    border-radius: 30px;
 }
 
 /* Contenitore per sidebar e main-information */
