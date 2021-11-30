@@ -28,11 +28,16 @@
 /* Header */
 
 header {
+    width: 100%;
     height: 100px;
     background-color: #080B11;
 
     justify-content: flex-end;
     align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
 }
 
 header a {
@@ -47,7 +52,7 @@ header a {
 /* Contenitore per sidebar e main-information */
 
 #main-info {
-    height: calc(100vh - 200px);
+    height: calc(100vh - 100px);
 }
 
 /* Sidebar */
@@ -55,7 +60,7 @@ header a {
 .sidebar {
     height: 100%;
     width: 10%;
-    background: green;
+    background: #000;
     position: absolute;
     float: left;
     top: 0;
