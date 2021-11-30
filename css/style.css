@@ -147,6 +147,11 @@ footer {
     left: 0;
 }
 
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
 .player {
     justify-content: space-between;
 }
@@ -154,9 +159,10 @@ footer {
 .info {
     flex-direction: column;
     margin-left: 15px;
+    color: white;
 }
 
-/* MENU? SINISTRA */
+/* MENU' SINISTRA */
 
 .left-menu {
     width: 20%;
@@ -192,7 +198,18 @@ footer {
 
 /* MENU' DESTRA */
 .right-menu {
-    width: 20%;
+    width: 30%;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+#volume-up {
+    width: 50%;
+    height: 2px;
+    border: 3px solid currentColor;
+
+    background-color: rgba(28, 28, 28, 0.5);
 }
 
 
