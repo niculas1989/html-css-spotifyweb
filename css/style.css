@@ -147,6 +147,32 @@ footer {
     left: 0;
 }
 
+.player {
+    justify-content: space-between;
+}
+
+.left-menu {
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-menu span {
+    font-size: 10px;
+}
+
+.central-menu {
+    width: 40%;
+}
+
+.right-menu {
+    width: 20%;
+}
+
+.player img {
+    height: 30px;
+}
+
 
 
 
