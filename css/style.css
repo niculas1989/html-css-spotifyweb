@@ -200,8 +200,12 @@ footer a {
 .right-menu {
     width: 30%;
 
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
+}
+
+.right-menu i {
+    font-size: 12px;
 }
 
 #volume-up {
