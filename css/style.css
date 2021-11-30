@@ -151,27 +151,50 @@ footer {
     justify-content: space-between;
 }
 
+.info {
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+/* MENU? SINISTRA */
+
 .left-menu {
     width: 20%;
     justify-content: center;
     align-items: center;
+    color: darkgray;
+}
+
+.left-menu .soundtrack {
+    font-size: 15px;
+    font-weight: 900;
+    color: white;
+}
+ 
+.left-menu i {
+    padding-bottom: 9px;
 }
 
 .left-menu span {
     font-size: 10px;
-}
-
-.central-menu {
-    width: 40%;
-}
-
-.right-menu {
-    width: 20%;
+    padding-bottom: 2px;
 }
 
 .player img {
     height: 30px;
 }
+
+/* MENU' CENTRALE */
+
+.central-menu {
+    width: 40%;
+}
+
+/* MENU' DESTRA */
+.right-menu {
+    width: 20%;
+}
+
 
 
 
