@@ -21,6 +21,10 @@
     display: flex;
 }
 
+.p-relative {
+    position: relative;
+}
+
 /* Header */
 
 header {
@@ -28,7 +32,40 @@ header {
     background-color: #080B11;
 }
 
-header a {
-    text-align: right;
-    text-decoration: none;
+/* Contenitore per sidebar e main-information */
+
+#main-info {
+    height: calc(100vh - 200px);
 }
+
+/* Sidebar */
+
+.sidebar {
+    height: 100%;
+    width: 10%;
+    background: green;
+    position: absolute;
+    float: left;
+    top: 0;
+    left: 0;
+}
+
+/* Main Informaiton per l'utente */
+
+.main-information {
+    height: 100%;
+    width: 90%;
+    background-color: aqua;
+    position: absolute;
+    float: left;
+    top: 0;
+    right: 0;
+}
+
+/* Footer */
+
+footer {
+    height: 100px;
+    background-color: darkred;
+}
+
