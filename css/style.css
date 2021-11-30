@@ -61,6 +61,10 @@ body {
     flex-direction: column;
 }
 
+.buttons-top i {
+    padding: 5px 0;
+}
+
 .buttons-bottom {
     flex-direction: column;
 }
