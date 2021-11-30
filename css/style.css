@@ -62,13 +62,7 @@ header a {
 /* Sidebar */
 
 .sidebar {
-    height: 100%;
-    width: 10%;
-    background: #000;
-    position: absolute;
-    float: left;
-    top: 0;
-    left: 0;
+    background-color: darkblue;
 }
 
 .sidebar i {
@@ -78,13 +72,7 @@ header a {
 /* Main Informaiton per l'utente */
 
 .main-information {
-    height: 100%;
-    width: 90%;
-    background-color: aqua;
-    position: absolute;
-    float: left;
-    top: 0;
-    right: 0;
+    background-color: darkcyan
 }
 
 /* Footer */
