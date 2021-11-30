@@ -32,6 +32,11 @@ header {
     background-color: #080B11;
 }
 
+header a {
+    text-decoration: none;
+    color: #58595E;
+}
+
 /* Contenitore per sidebar e main-information */
 
 #main-info {
