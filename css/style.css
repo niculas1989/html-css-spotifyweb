@@ -43,6 +43,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
+    z-index: 2;
 }
 
 .sidebar i {
@@ -53,23 +54,24 @@ body {
 
 header {
     height: 100px;
+    width: 100%;
     background-color: #080B11;
-    /* justify-content: flex-end;
-    align-items: center; */
-    /* position: fixed;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
     top: 0;
     left: 0;
-    z-index: 1; */
+    z-index: 1;
 }
 
-/* header a {
+header a {
     color: white;
     height: 45px;
     text-decoration: none;
     padding: 15px 20px;
     border: 1px solid currentColor;
     border-radius: 30px;
-} */
+}
 
 /* Contenitore per sidebar e main-information */
 
@@ -102,4 +104,28 @@ footer {
     bottom: 0;
     left: 0;
 }
+
+
+
+
+
+
+/* QUERY - responsive */
+
+/* Breackpoont per 767px */
+
+@media screen and (min-width: 767px) {
+    .sidebar {
+        width: 250px;
+    }
+    
+}
+
+/* Breackpoont per 991px */
+
+@media screen and (min-width: 991px) {
+    /* informazioni da aggiungere in un secondo momento, per adesso non cambia nulla */
+}
+
+
 
