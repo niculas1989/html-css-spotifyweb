@@ -52,14 +52,17 @@ body {
 
 #side-buttons {
     height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.sidebar .buttons-top {
-    
+.buttons-top {
+    flex-direction: column;
 }
 
-.sidebar .buttons-bottom {
-    align-self: flex-end;
+.buttons-bottom {
+    flex-direction: column;
 }
 
 /* Header */
