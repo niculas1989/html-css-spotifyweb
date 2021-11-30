@@ -20,3 +20,10 @@
 .d-flex {
     display: flex;
 }
+
+/* Header */
+
+header {
+    height: 100px;
+    background-color: #080B11;
+}
