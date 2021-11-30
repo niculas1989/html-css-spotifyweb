@@ -33,9 +33,9 @@ body {
     flex-direction: column;
 }
 
-.hidden {
+/* .hidden {
     display: none;
-}
+} */
 
 /* Sidebar */
 
@@ -160,7 +160,23 @@ footer {
         width: 250px;
         display: flex;
         justify-content: left;
+        padding-left: 15px;
+    }
 
+    .sidebar a {
+        text-decoration: none;
+        color: currentColor;
+        text-align: center;
+        display: flex;
+        align-content: center;
+    }
+
+    .sidebar h3 {
+        font-size: 1rem; 
+   }
+    .sidebar ul {
+        padding-top: 20px;
+        list-style-type: none;
     }
     
 }
