@@ -33,9 +33,9 @@ body {
     flex-direction: column;
 }
 
-/* .hidden {
+.hidden {
     display: none;
-} */
+}
 
 /* Sidebar */
 
@@ -50,8 +50,8 @@ body {
     z-index: 2;
 }
 
-.sidebar i {
-    font-size: 1.5rem;
+.sidebar img {
+    height: 30px;
 }
 
 #side-buttons {
@@ -65,7 +65,7 @@ body {
     flex-direction: column;
 }
 
-.buttons-top i {
+.buttons-top img {
     padding: 5px 0;
 }
 
@@ -74,13 +74,21 @@ body {
     align-items: center;
 }
 
-.buttons-bottom i {
+.buttons-bottom img {
     padding: 5px 0;
     color: darkgray
 }
 
 #smaller {
-    font-size: 10px;
+    height: 20px;
+}
+
+#background-circle {
+    background-color: darkgray;
+    height: 27px;
+    width: 30px;
+    border: 1px solid currentColor;
+    border-radius: 50%;
 }
 
 /* Header */
@@ -120,7 +128,7 @@ header a {
 #main-info {
     height: 100%;
     
-    background-color: darkcyan;
+    background-color: #141922;
 }
 
 /* Main Informaiton per l'utente */
@@ -131,7 +139,7 @@ header a {
 footer {
     width: 100%;
     height: 100px;
-    background-color: darkred;
+    background-color: #282828;
     position: fixed;
     z-index: 1;
     bottom: 0;
@@ -150,6 +158,9 @@ footer {
 @media screen and (min-width: 767px) {
     .sidebar {
         width: 250px;
+        display: flex;
+        justify-content: left;
+
     }
     
 }
