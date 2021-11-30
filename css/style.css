@@ -29,56 +29,77 @@ body {
     position: relative;
 }
 
-/* Header */
-
-header {
-    width: 100%;
-    height: 100px;
-    background-color: #080B11;
-
-    justify-content: flex-end;
-    align-items: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1;
-}
-
-header a {
-    color: white;
-    height: 45px;
-    text-decoration: none;
-    padding: 15px 20px;
-    border: 1px solid currentColor;
-    border-radius: 30px;
-}
-
-/* Contenitore per sidebar e main-information */
-
-#main-info {
-    height: calc(100vh - 100px);
+.flex-col {
+    flex-direction: column;
 }
 
 /* Sidebar */
 
 .sidebar {
+    width: 50px;
+    height: 100%;
     background-color: darkblue;
+
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .sidebar i {
     font-size: 2rem;
 }
 
+/* Header */
+
+header {
+    height: 100px;
+    background-color: #080B11;
+    /* justify-content: flex-end;
+    align-items: center; */
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1; */
+}
+
+/* header a {
+    color: white;
+    height: 45px;
+    text-decoration: none;
+    padding: 15px 20px;
+    border: 1px solid currentColor;
+    border-radius: 30px;
+} */
+
+/* Contenitore per sidebar e main-information */
+
+#wrapper{
+    height: calc(100vh - 100px);
+}
+
+.main-content {
+    flex-direction: column;
+    height: calc(100vh - 100px);
+}
+
+#main-info {
+    height: 100%;
+    
+    background-color: darkcyan;
+}
+
 /* Main Informaiton per l'utente */
 
-.main-information {
-    background-color: darkcyan
-}
 
 /* Footer */
 
 footer {
+    width: 100%;
     height: 100px;
     background-color: darkred;
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
 }
 
