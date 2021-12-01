@@ -175,7 +175,7 @@ header a {
 
 .wrapper-listened {
     padding-left: 20px;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
