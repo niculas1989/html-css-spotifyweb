@@ -161,7 +161,7 @@ header a {
     padding-top: 30px;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .albums-listened img {
@@ -177,6 +177,15 @@ header a {
     padding-left: 20px;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+.subtitle {
+    color: darkgray;
+    font-size: 12px;
+}
+
+#artists-recommended img {
+    border-radius: 50%;
 }
 
 
@@ -256,7 +265,7 @@ footer a {
 
 /* MENU' DESTRA */
 .right-menu {
-    width: 30%;
+    width: 20%;
 
     justify-content: space-between;
     align-items: center;
