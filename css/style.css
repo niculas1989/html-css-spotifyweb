@@ -87,8 +87,10 @@ body {
 }
 
 .buttons-bottom {
+    display: flex;
     flex-direction: column;
-    /* align-items: center; */
+    align-items: center;
+    justify-content: center;
 }
 
 .buttons-bottom img {
@@ -372,6 +374,11 @@ footer a {
 
     .sidebar li {
         padding-top: 10px;
+    }
+
+    .buttons-bottom {
+        display: flex;
+        align-self: flex-start;
     }
 
     header {
