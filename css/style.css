@@ -148,9 +148,14 @@ header a {
 }
 
 .list-items {
-    font-size: 12px; 
+    font-size: 14px; 
     padding-bottom: 30px;
-    padding-left: 20px;   
+    padding-left: 20px;
+    position: flex;
+    justify-content: center;
+    align-content: center;
+    
+    
 }
 
 .recently-played {
@@ -161,7 +166,7 @@ header a {
     padding-top: 30px;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
+    width: 200px;
 }
 
 .albums-listened img {
@@ -175,7 +180,7 @@ header a {
 
 .wrapper-listened {
     padding-left: 20px;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
     flex-wrap: wrap;
 }
 
