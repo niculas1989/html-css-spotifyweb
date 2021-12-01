@@ -155,9 +155,12 @@ header a {
 }
 
 .list-items {
+    padding-top: 20px;
+    font-size: 12px;
     flex-direction: column;
     flex-basis: 100%;
-    justify-content: space-between;
+    height: 100px;
+    align-content: center;
 }
 
 /* Footer */
