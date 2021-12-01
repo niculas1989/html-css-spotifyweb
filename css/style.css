@@ -294,10 +294,10 @@ footer a {
     font-size: 1.2rem;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 20px;
 }
 
 .central-menu .bottom-menu {
-    padding-top: 10px;
     display:flex;
 }
 
