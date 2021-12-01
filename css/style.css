@@ -127,6 +127,10 @@ header a {
 
 /* Main Informaiton per l'utente */
 
+#main-info {
+    display: flex;
+}
+
 #main-info ul, li {
     list-style-type: none;
     display: inline-block;
@@ -135,6 +139,10 @@ header a {
 #main-info a {
     text-decoration: none;
     color: lightgray;
+}
+
+.list-items {
+    font-size: 12px;    
 }
 
 
