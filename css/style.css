@@ -395,6 +395,14 @@ footer a {
         width: calc(100% - 250px);
     }
 
+    .progress-Bar {
+        width: 30px;
+    }
+
+    .progress-Bar-Full {
+        width: 70px;
+    }
+
 
 
 
