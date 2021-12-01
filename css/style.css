@@ -128,12 +128,19 @@ header a {
 
 #main-info {
     height: 100%;
-    
     background-color: #141922;
+    position: relative;
 }
 
 /* Main Informaiton per l'utente */
 
+.users-information {
+    width: calc(100% - 50px);
+    height: 100%;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+}
 
 /* Footer */
 
