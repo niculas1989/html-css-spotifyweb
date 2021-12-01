@@ -127,32 +127,16 @@ header a {
 
 /* Main Informaiton per l'utente */
 
-/* .users-information {
-    width: calc(100% - 50px);
-    height: 100%;
-    position: absolute;
-    top: 100px;
-    left: 50px;
-} */
-
-.list-items ul, li {
+#main-info ul, li {
     list-style-type: none;
     display: inline-block;
 }
 
-.list-items a {
+#main-info a {
     text-decoration: none;
     color: lightgray;
 }
 
-/* .list-items {
-    padding-top: 20px;
-    font-size: 12px;
-    flex-direction: column;
-    flex-basis: 100%;
-    height: 100px;
-    align-content: center;
-} */
 
 /* Footer */
 
@@ -293,6 +277,10 @@ footer a {
     .sidebar ul {
         padding-top: 20px;
         list-style-type: none;
+    }
+
+    header {
+        width: calc(100% - 250px);
     }
 
 
