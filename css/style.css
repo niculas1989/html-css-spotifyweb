@@ -311,12 +311,22 @@ footer a {
     font-size: 12px;
 }
 
-#volume-up {
-    width: 50%;
-    height: 2px;
-    border: 3px solid currentColor;
+.progress-Bar {
+    height: 5px;
+    color: white;
+    width: 10px;
+    border: 1px solid currentColor;
+    background-color: currentColor;
+    float: left;
+}
 
-    background-color: rgba(28, 28, 28, 0.5);
+.progress-Bar-Full {
+    height: 5px;
+    color: darkgray;
+    width: 30px;
+    border: 1px solid currentColor;
+    background-color: currentColor;
+    float: left;
 }
 
 
