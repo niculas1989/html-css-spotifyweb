@@ -285,6 +285,7 @@ footer a {
 
 .central-menu {
     width: 40%;
+    display: flex;
     flex-direction: column;
     justify-content: center;
 }
@@ -295,8 +296,29 @@ footer a {
     align-items: center;
 }
 
+.central-menu .bottom-menu {
+    padding-top: 10px;
+    display:flex;
+}
+
 #bigger {
     font-size: 2rem;
+}
+
+.progression-player {
+    height: 8px;
+    color: white;
+    width: 20px;
+    border: 1px solid currentColor;
+    background-color: currentColor;
+}
+
+.progression-player-full {
+    height: 8px;
+    color: darkgray;
+    width: 100%;
+    border: 1px solid currentColor;
+    background-color: currentColor;
 }
 
 /* MENU' DESTRA */
