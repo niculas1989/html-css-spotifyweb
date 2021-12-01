@@ -184,6 +184,10 @@ header a {
     font-size: 12px;
 }
 
+#wrapper-recommended {
+    padding: 30px 0;
+}
+
 #artists-recommended img {
     border-radius: 50%;
 }
