@@ -51,11 +51,31 @@ body {
     height: 30px;
 }
 
+.sidebar h3 {
+    color: #fff;
+    padding-bottom: 20px;
+}
+
 #side-buttons {
     height: 100%;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+}
+
+.bigger-button {
+    font-size: 2rem;
+    padding-right: 5px;
+}
+
+.new-playlist {
+    display: flex;
+    align-items: center;
+}
+
+.sidebar .hidden li {
+    font-size: 12px;
+    color: darkgray;
 }
 
 .buttons-top {
@@ -68,12 +88,21 @@ body {
 
 .buttons-bottom {
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .buttons-bottom img {
     padding: 10px 0;
     color: darkgray
+}
+
+.all-centered {
+    display: flex;
+    align-items: center;
+}
+
+.all-centered span{
+    font-size: 8px;
 }
 
 #smaller {
@@ -129,10 +158,6 @@ header a {
 
 /* Main Informaiton per l'utente */
 
-/* #main-info {
-    display: flex;
-} */
-
 #main-info ul, li {
     list-style-type: none;
     display: inline-block;
@@ -151,11 +176,11 @@ header a {
     font-size: 14px; 
     padding-bottom: 30px;
     padding-left: 20px;
-    position: flex;
-    justify-content: center;
-    align-content: center;
-    
-    
+}
+
+#navigation-bar li {
+    padding-bottom: 30px;
+    padding-right: 10px;
 }
 
 .recently-played {
@@ -222,7 +247,7 @@ footer a {
 
 .info {
     flex-direction: column;
-    padding-left: 15px;
+    padding-left: 8px;
     color: white;
 }
 
@@ -338,6 +363,15 @@ footer a {
     .sidebar ul {
         padding-top: 20px;
         list-style-type: none;
+    }
+
+    .sidebar .hidden {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sidebar li {
+        padding-top: 10px;
     }
 
     header {
