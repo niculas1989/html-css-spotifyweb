@@ -154,6 +154,14 @@ header a {
     border-radius: 30px;
 }
 
+#premium:hover {
+    transform: scale(1.2);
+}
+
+#premium {
+    padding-right: 20px;
+}
+
 /* Contenitore per sidebar e main-information */
 
 #wrapper{
