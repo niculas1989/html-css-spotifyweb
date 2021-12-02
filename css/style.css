@@ -38,6 +38,9 @@ body {
     display: none;
 }
 
+img {
+    max-width: 100%;
+}
 
 /* Sidebar */
 
@@ -100,7 +103,7 @@ body {
 
 .buttons-bottom img {
     padding: 10px 0;
-    color: darkgray
+    color: darkgray;
 }
 
 .all-centered {
@@ -203,14 +206,14 @@ header a {
     padding-top: 30px;
     flex-direction: column;
     align-items: center;
-    width: 200px;
+    width: 50%;
+    
 
     position: relative;
 }
 
 .albums-listened img {
-    height: 180px;
-    padding-right: 10px;
+    padding-right: 20px;
 }
 
 .albums-listened span {
@@ -226,7 +229,7 @@ header a {
 .wrapper-listened .fa-play-circle {
     font-size: 80px;
     position: absolute;
-    top: 50%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
     opacity: 0;
@@ -235,6 +238,10 @@ header a {
 .wrapper-listened .albums-listened:hover .fa-play-circle {
     opacity: 1;
     transition: 0.5s ease-in-out;
+}
+
+.albums-listened:hover {
+    cursor: pointer;
 }
 
 .subtitle {
