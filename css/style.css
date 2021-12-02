@@ -57,6 +57,7 @@ img {
     height: 100%;
     background-color: black;
     flex-shrink: 0;
+    color: darkgray;
 }
 
 .sidebar img {
@@ -80,9 +81,15 @@ img {
     padding-right: 5px;
 }
 
+
 .new-playlist {
     display: flex;
     align-items: center;
+}
+
+.new-playlist:hover {
+    color: #fff;
+    cursor: pointer;
 }
 
 .sidebar .hidden li {
@@ -146,7 +153,7 @@ header {
 }
 
 header a {
-    color: white;
+    color: lightgray;
     height: 45px;
     text-decoration: none;
     padding: 15px 20px;
@@ -156,6 +163,7 @@ header a {
 
 #premium:hover {
     transform: scale(1.2);
+    color: white;
 }
 
 #premium {
