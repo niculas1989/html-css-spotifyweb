@@ -351,6 +351,11 @@ footer a {
     font-weight: 900;
     color: white;
 }
+
+.soundtrack:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
  
 .left-menu i {
     padding-bottom: 9px;
