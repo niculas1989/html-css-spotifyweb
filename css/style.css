@@ -525,6 +525,7 @@ footer a {
     .sidebar .hidden {
         display: flex;
         flex-direction: column;
+        justify-content: center;
     }
 
     .sidebar li {
