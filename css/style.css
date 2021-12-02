@@ -352,7 +352,7 @@ footer a {
     color: white;
 }
 
-.soundtrack:hover {
+.soundtrack-h:hover {
     text-decoration: underline;
     cursor: pointer;
 }
