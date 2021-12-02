@@ -38,6 +38,10 @@ body {
     display: none;
 }
 
+.sidebar a:hover {
+    color: white;
+}
+
 /* Sidebar */
 
 .sidebar {
