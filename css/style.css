@@ -181,7 +181,7 @@ header a {
     flex-grow: 1;
     background-color: #141922; 
     padding-top: 120px;
-    width: calc(100%-50px);
+    width: calc(100% - 50px);
 
     overflow-y: auto;
 }
@@ -198,7 +198,7 @@ header a {
 
 #main-info a {
     text-decoration: none;
-    color: lightgray;
+    color: darkgray;
 }
 
 #main-info {
@@ -220,6 +220,10 @@ header a {
 
 #navigation-bar li {
     padding: 20px;
+}
+
+#navigation-bar a:hover {
+    color: white;
 }
 
 .recently-played {
