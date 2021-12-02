@@ -386,6 +386,10 @@ footer a {
     padding-bottom: 20px;
 }
 
+.upper-menu i:hover {
+    transform: scale(1.5);
+}
+
 .central-menu .bottom-menu {
     display:flex;
     align-items: center;
@@ -406,6 +410,10 @@ footer a {
     width: 20px;
     border: 1px solid currentColor;
     background-color: currentColor;
+}
+
+.progression-player:hover {
+    color: #adff2f;
 }
 
 .progression-player-full {
@@ -435,6 +443,10 @@ footer a {
     border: 1px solid currentColor;
     background-color: currentColor;
     float: left;
+}
+
+.progress-Bar:hover {
+    color: #adff2f;
 }
 
 .progress-Bar-Full {
