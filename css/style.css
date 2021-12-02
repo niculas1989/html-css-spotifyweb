@@ -168,7 +168,6 @@ header a {
 
 .list-items a:hover {
     color: white;
-    border-bottom: 1px solid orange;
 }
 
 /* Main Informaiton per l'utente */
@@ -205,6 +204,15 @@ header a {
 
 .recently-played {
     padding-left: 20px;
+}
+
+#navigation-bar li.active::after {
+    content: '';
+    display: block;
+    width: 30%;
+    height: 2px;
+    background-color: #adff2f;
+    margin: 3px auto;
 }
 
 .albums-listened {
