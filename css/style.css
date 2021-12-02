@@ -38,11 +38,12 @@ body {
     display: none;
 }
 
+
+/* Sidebar */
+
 .sidebar a:hover {
     color: white;
 }
-
-/* Sidebar */
 
 .sidebar {
     width: 50px;
@@ -160,6 +161,11 @@ header a {
     width: calc(100%-50px);
 
     overflow-y: auto;
+}
+
+#main-info a:hover {
+    color: white;
+    border-bottom: 1px solid orange;
 }
 
 /* Main Informaiton per l'utente */
