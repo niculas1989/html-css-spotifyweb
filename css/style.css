@@ -175,7 +175,6 @@ header a {
 
 #main-info ul, li {
     list-style-type: none;
-    display: inline-block;
 }
 
 #main-info a {
@@ -193,9 +192,15 @@ header a {
     padding-left: 20px;
 }
 
+#navigation-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
 #navigation-bar li {
-    padding-bottom: 30px;
-    padding-right: 10px;
+    padding: 20px;
 }
 
 .recently-played {
