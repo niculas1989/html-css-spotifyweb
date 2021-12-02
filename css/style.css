@@ -42,6 +42,10 @@ img {
     max-width: 100%;
 }
 
+.overflow-y {
+    overflow-y: auto;
+}
+
 /* Sidebar */
 
 .sidebar a:hover {
@@ -138,7 +142,7 @@ header {
     position: fixed;
     top: 0;
     /* right: 0; */
-    /* z-index: 1; */
+    z-index: 1;
 }
 
 header a {
@@ -432,7 +436,7 @@ footer a {
     }
 
     #logo-big {
-        height: 45px;
+        height: 100px;
         margin-bottom: 30px;
     }
 
