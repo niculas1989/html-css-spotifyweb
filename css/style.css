@@ -507,7 +507,7 @@ footer a {
 
     .sidebar a {
         text-decoration: none;
-        color: currentColor;
+        color: darkgray;
         text-align: center;
         display: flex;
         align-content: center;
