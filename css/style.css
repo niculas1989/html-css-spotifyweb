@@ -221,7 +221,7 @@ header a {
     align-items: center;
     flex-basis: 50%;
     
-
+    text-align: center;
     position: relative;
 }
 
@@ -260,6 +260,15 @@ header a {
 .subtitle {
     color: darkgray;
     font-size: 12px;
+}
+
+#artists-recommended .wrapper-listened .fa-play-circle {
+    font-size: 80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
 }
 
 #wrapper-recommended {
